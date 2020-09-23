@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>Prueba GradiWeb - Diego Pulido</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css" >
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;500;900&display=swap" rel="stylesheet">
+        
+    </head>
+    <body style="background-color: rgb(225,232,239); font-family: 'Roboto', sans-serif;">
+        
+    <div class="row barra" style=" width: 100%; position: absolute; display: flex; flex-direction: row-reverse;">
+        <div class="col-md-2">
+            <img src="lib/icon.png">
+        </div>
+    </div>        
+      
+      
+      <div class="contenedor">
+         <div class="boton boton1"><img id="iconoBog"></div>
+         <div class="boton boton2" id="temperaturaBogHoy"></div>
+          <div class="topbanner">
+          <div class="row topbannerinner">
+              <div class="col-md-3" style="display: flex; flex-direction: row;"><i class="fas fa-map-marker-alt" style="margin: 8px;"></i>BOGOTÁ</div>
+          </div>
+          </div>
+          <div class="row lowerbanner">
+              <div class="col-md-3 columna">
+                  <h5><b>3 Days</b> Forecast</h5>
+                  <br><br>
+                  <div class="row">
+                      <div class="col-md-12 forecast">
+                          <div class="col-md-2"><img id="iconoBog1"></div>
+                          <div class="col-md-4" style="padding:25px;">Friday</div>
+                          <div class="col-md-6 boton boton3" id="temperaturaBogVier"></div>
+                      </div>
+                      <div class="col-md-12 forecast">
+                          <div class="col-md-2"><img id="iconoBog2"></div>
+                          <div class="col-md-4" style="padding:25px;">Saturday</div>
+                          <div class="col-md-6 boton boton3" id="temperaturaBogSab"></div>
+                      </div>
+                      <div class="col-md-12 forecast">
+                          <div class="col-md-2"><img id="iconoBog3"></div>
+                          <div class="col-md-4" style="padding:25px;">Sunday</div>
+                          <div class="col-md-6 boton boton3" id="temperaturaBogDom"></div>
+                      </div>
+                  </div>
+                  
+              </div>
+              <div class="col-md-2 columna">
+                  <h5><b>Place to</b> Visit</h5>
+                  <br><br>
+                  <a href="#" style="text-decoration: none;">
+                  <div class="galery galery1">
+                      <div class="overlay"><h4>+</h4></div>
+                      <div class="col-md-3" style="display: flex; flex-direction: row; padding: 10px;"><i class="fas fa-map-marker-alt" style="margin: 5px;"></i>ARAB STREET <br>Singapore</div>
+                  </div>
+                  </a>
+              </div>
+              <div class="col-md-2 columna">
+                 <h6 style="padding: 5px; color: darkgrey;"><b>+</b> Top Reviews</h6>
+                  <br><br>
+                  <a href="#" style="text-decoration: none;">
+                  <div class="galery galery2">
+                      <div class="overlay2"><h4>+</h4></div>
+                      <div class="col-md-3" style="display: flex; flex-direction: row; padding: 10px;"><i class="fas fa-map-marker-alt" style="margin: 5px;"></i>Art Science Museum</div>
+                  </div>
+                  </a>
+                  <br>
+                  <a href="#" style="text-decoration: none;">
+                  <div class="galery galery3">
+                      <div class="overlay2"><h4>+</h4></div>
+                      <div class="col-md-3" style="display: flex; flex-direction: row; padding: 10px;"><i class="fas fa-map-marker-alt" style="margin: 5px;"></i>Fountain of Wealth</div>
+                  </div>
+                  </a>
+              </div>
+              <div class="col-md-4 columna">
+                  
+                  <div class="row tempfrancia">
+                      <div class="col-md-12 forecast2">
+                          <div class="col-md-5 boton boton4" id=""><img id="iconoLyon"></div>
+                          <div class="col-md-4" id="temperaturaLyonHoy"></div>
+                          <div class="col-md-3"><h5>Lyon</h5>Francia</div>
+                      </div>
+                      <div class="col-md-12 forecast2">
+                          <div class="col-md-5 boton boton4" id=""><img id="iconoPar"></div>
+                          <div class="col-md-4" id="temperaturaParHoy"></div>
+                          <div class="col-md-3"><h5>París</h5>Francia</div>
+                      </div>
+                      <div class="col-md-12 forecast2 city">
+                          <div class="boton9"><h6>Add Locations</h6></div>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+          
+      </div>  
+
+        
+        
+
+        
+    </body>
+    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    
+</html>

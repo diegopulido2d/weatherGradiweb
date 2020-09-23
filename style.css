@@ -1,0 +1,300 @@
+body{
+    padding: 2%;
+}
+
+
+.contenedor{
+    margin:140px 80px;
+    box-shadow: 20px 20px 50px #aaaaaa;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.boton{
+    padding: 25px 10px;
+    width: 90px;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.boton1{
+    height: 90px;
+    margin-top: 90px;
+    background-color: rgb(51,52,131);
+    z-index: 99;
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: 10px 10px 50px rgba(0,0,0, 0.5);
+}
+
+.boton2{
+    padding-top: 50px;
+    height: 120px;
+    margin-top: 150px;
+    background-color: rgb(126,107,227);
+    border-radius: 0px 0px 30px 0px;
+    box-shadow: 10px 10px 50px rgba(0,0,0, 0.5);
+}
+
+
+.boton3{
+    height: 100px;
+    padding-top: 40px;
+    background-color: rgb(205,212,219);
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.2s;
+    color: black;
+}
+
+
+.boton4{
+    height: 130px;
+    background-color: rgb(205,212,219);
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.2s;
+}
+
+.topbanner{
+    font-size: 30px;
+    margin: 50px;
+    padding: 8% 8%;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    height:300px;
+    background-image: url(lib/bogota.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    color: rgb(126,107,227);
+    transition: 0.2s;
+}
+
+.topbanner:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+.lowerbanner{
+    margin: 50px !important;
+    color: rgb(50,50,50);
+}
+
+.columna{
+    margin: 10px !important;
+}
+
+.forecast{
+    height: 100px;
+    padding: 0 !important;
+    box-shadow: 10px 10px 50px rgba(0,0,0, 0.1);
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.forecast h6{
+    font-size: 14px;
+}
+
+.forecast2{
+    height: 130px;
+    padding: 0 !important;
+    box-shadow: 10px 10px 50px rgba(0,0,0, 0.1);
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.forecast2 h5{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+
+.forecast:hover .boton3{
+    background-color: rgb(126,107,227);
+    color: white;
+    transition: 0.4s;
+}
+
+.forecast2:hover .boton4{
+    background-color: rgb(126,107,227);
+    transition: 0.4s;
+}
+
+
+.boton4 img{
+    max-width: 80px;
+    height: 70px;
+}
+
+.tempfrancia{
+    margin-top: -130px;
+}
+
+
+.galery1{
+    width:100%;
+    height: 350px;
+    background-image: url(lib/pict1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: white;
+}
+
+.galery2{
+    width:100%;
+    height: 162px;
+    background-image: url(lib/pict2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: white;
+}
+
+.galery3{
+    width:100%;
+    height: 162px;
+    background-image: url(lib/pict3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: white;
+}
+
+.galery:hover .overlay{
+    width: 100px;
+    transition: 0.4s;
+    background-color: rgba(126,107,227, 0.8);
+    color: white;
+}
+
+.overlay{
+    width: 0;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.2s;
+    z-index: 99;
+    position: absolute;
+}
+
+.overlay2{
+    width: 0;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.2s;
+    z-index: 99;
+    position: absolute;
+}
+
+
+.galery:hover .overlay2{
+    width: 100px;
+    transition: 0.4s;
+    background-color: rgba(126,107,227, 0.8);
+    color: white;
+}
+
+
+.city{
+    height: 255px;
+    border-width: 1px;
+    border-color: darkgrey;
+    border-style: dashed;
+    background-image: url(lib/city.png);
+    background-size: 70%;
+    background-position: center 110%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.boton9{
+    margin: 30px;
+    width: 60%;
+    height: 50px;
+    background-color: rgb(240,238,250);
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    color: rgb(126,107,227);
+    transition: 0.2s;
+}
+
+
+.boton9:hover{
+    background-color: rgb(126,107,227);
+    color: white;
+    transition: 0.4s;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    
+    .columna{
+        padding-bottom: 100px;
+    }
+    
+    .contenedor{
+        margin:140px 30px;
+    }
+    
+    .tempfrancia{
+    margin-top: 0;
+    }
+    
+    .topbanner{
+    padding: 20% 20%;
+    font-size: 20px;
+    }
+    
+    .boton4{
+        height: 100px;
+    }
+    
+    .forecast2{
+        height: 100px;
+    }
+    
+    .city{
+        height: 250px;
+    }
+    
+    .forecast2 h3{
+    font-size: 16px;
+    font-weight: 900;
+    }
+    
+   
+}
